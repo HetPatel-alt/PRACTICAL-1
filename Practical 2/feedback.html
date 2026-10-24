@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Feedback</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <h1>Student Feedback</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="feedback.html" aria-current="page">Feedback</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section aria-labelledby="feedback-heading">
+      <h2 id="feedback-heading">Tell Us About Your Experience</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Feedback Form</legend>
+          <p><label for="feedback-name">Name (optional)</label><br><input type="text" id="feedback-name" name="name" autocomplete="name"></p>
+          <p><label for="rating">Overall experience</label><br>
+            <select id="rating" name="rating" required>
+              <option value="">Choose a rating</option>
+              <option value="excellent">Excellent</option>
+              <option value="good">Good</option>
+              <option value="average">Average</option>
+              <option value="poor">Poor</option>
+            </select>
+          </p>
+          <p><label for="feedback-message">Your feedback</label><br><textarea id="feedback-message" name="feedback" rows="5" cols="40" required></textarea></p>
+          <p><button type="submit">Submit Feedback</button></p>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 StudentHub</p></footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | StudentHub</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">SH</span><span>StudentHub</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a  href="about.html">About</a>
+      <a class="active" aria-current="page" href="dashboard.html">Dashboard</a><a  href="events.html">Events</a>
+      <a  href="feedback.html">Feedback</a><a  href="faq.html">FAQ</a>
+      <a  href="contact.html">Contact</a><a  href="login.html">Login</a>
+    </nav>
+  </header>
+  <main id="main-content">
+
+    <section class="page-banner"><h1>Good morning, Samira!</h1><p>Here is your academic overview for today.</p></section>
+    <section class="section">
+      <div class="stats-grid dashboard-stats"><article class="stat-card"><strong>8.74</strong><span>Current CGPA</span></article><article class="stat-card"><strong>92%</strong><span>Attendance</span></article><article class="stat-card"><strong>4</strong><span>Assignments due</span></article><article class="stat-card"><strong>5</strong><span>Active courses</span></article></div>
+      <div class="dashboard-grid"><div class="stack">
+        <article class="card"><h2>Student information</h2><strong>Samira Ahmed</strong><p>CSE-2201045 · Computer Science · Semester 6</p></article>
+        <article class="card"><h2>Attendance</h2><p>Overall attendance: 92%</p><div class="progress" role="progressbar" aria-label="Attendance" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"><span style="width:92%"></span></div></article>
+        <article class="card"><h2>Recent announcements</h2><strong>Marksheets published</strong><p>Semester 5 results are ready to view.</p></article>
+      </div><div class="stack">
+        <article class="card centered"><h2>Upcoming events</h2><p><strong>TechFest 2026</strong><br>14 August · Main Auditorium</p><p><strong>Career Connect Fair</strong><br>27 August · Central Hall</p></article>
+        <article class="card centered"><h2>Notifications</h2><p>DBMS report is due tomorrow.</p><p>Your attendance is above the department target.</p></article>
+        <article class="card"><h2>Quick Links</h2><div class="button-row"><a class="button button-outline" href="profile.html">Profile</a><a class="button button-outline" href="events.html">Events</a><a class="button button-outline" href="feedback.html">Feedback</a></div></article>
+      </div></div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div><h2>StudentHub</h2><p>One portal for every part of university life.</p></div>
+      <div><h2>Quick Links</h2><a href="about.html">About</a><a href="events.html">Events</a><a href="dashboard.html">Dashboard</a></div>
+      <div><h2>University</h2><a href="events.html">Academic calendar</a><a href="faq.html">Library</a><a href="about.html">Departments</a></div>
+      <div><h2>Contact</h2><a href="mailto:support@studenthub.edu">support@studenthub.edu</a><span>+880 1700 000 000</span></div>
+    </div>
+    <p class="copyright">© 2026 StudentHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Register</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <h1>Create a StudentHub Account</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" aria-current="page">Register</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Registration Details</legend>
+        <p><label for="full-name">Full name</label><br><input type="text" id="full-name" name="full_name" autocomplete="name" required></p>
+        <p><label for="student-email">Student email</label><br><input type="email" id="student-email" name="email" autocomplete="email" required></p>
+        <p><label for="student-id">Student ID</label><br><input type="text" id="student-id" name="student_id" required></p>
+        <p><label for="course">Course</label><br>
+          <select id="course" name="course" required>
+            <option value="">Select your course</option>
+            <option value="it">Information Technology</option>
+            <option value="cs">Computer Science</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <p><label for="new-password">Password</label><br><input type="password" id="new-password" name="password" autocomplete="new-password" required></p>
+        <p><button type="submit">Register</button></p>
+      </fieldset>
+    </form>
+    <p>Already registered? <a href="login.html">Log in</a>.</p>
+  </main>
+  <footer><p>&copy; 2026 StudentHub</p></footer>
+</body>
+</html>
