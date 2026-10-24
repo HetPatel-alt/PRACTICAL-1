@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Events</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/data.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="site-title" href="index.html">StudentHub</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html" >Home</a>
+      <a href="about.html" >About</a>
+      <a href="register.php" >Registration</a>
+      <a href="dashboard.html" >Dashboard</a>
+      <a href="events.html" aria-current="page">Events</a>
+      <a href="students.html">Students</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button></div></header>
+  <main class="page-container">
+    
+<section class="intro-panel">
+  <p class="eyebrow">What's happening</p><h1>Campus Events</h1>
+  <p>Use the arrows to browse the sample events.</p>
+</section>
+<section class="section-block">
+  <div class="section-heading"><h2>Featured Events</h2><div class="slider-controls"><button id="previous-slide" type="button" aria-label="Previous event">‹</button><button id="next-slide" type="button" aria-label="Next event">›</button></div></div>
+  <div class="event-slider" id="event-slider" aria-live="polite">
+    <article class="event-card active"><p class="event-date">05 NOV 2026</p><h3>Web Development Workshop</h3><p>Learn the basics of building clear and accessible web pages.</p></article>
+    <article class="event-card"><p class="event-date">18 NOV 2026</p><h3>Student Project Showcase</h3><p>Share project ideas and learn from other students.</p></article>
+    <article class="event-card"><p class="event-date">02 DEC 2026</p><h3>Campus Activity Day</h3><p>Take part in a sample day of campus activities.</p></article>
+  </div>
+  <p class="slide-status" id="slide-status">Event 1 of 3</p>
+</section>
+
+<section class="section-block json-section" aria-labelledby="all-events-title">
+  <p class="eyebrow">Fetch API</p>
+  <h2 id="all-events-title">All Campus Events</h2>
+  <p>Events are loaded from <code>data/events.json</code>. Search, filter, sort and paginate the records.</p>
+  <div class="data-controls">
+    <div class="field"><label for="event-search">Search events</label><input id="event-search" type="search" placeholder="Search title, location or organizer"></div>
+    <div class="field"><label for="event-category">Category</label><select id="event-category"><option value="">All categories</option></select></div>
+    <div class="field"><label for="event-sort">Sort by</label><select id="event-sort"><option value="date-asc">Date: earliest first</option><option value="date-desc">Date: latest first</option><option value="title-asc">Title: A–Z</option><option value="title-desc">Title: Z–A</option></select></div>
+    <div class="field"><label for="event-page-size">Records per page</label><select id="event-page-size"><option value="5">5</option><option value="10">10</option><option value="15">15</option></select></div>
+  </div>
+  <p id="events-status" class="data-status" role="status" aria-live="polite">Loading events…</p>
+  <div id="events-list" class="data-grid"></div>
+  <div class="pagination"><button id="events-prev" type="button" class="secondary-button" disabled>Previous</button><span id="events-page-label">Page 1</span><button id="events-next" type="button" class="secondary-button" disabled>Next</button></div>
+</section>
+
+
+  </main>
+  <div class="notification" id="notification" role="status" aria-live="polite" hidden>
+    <p id="notification-message">You are all caught up.</p>
+    <button id="close-notification" type="button" aria-label="Dismiss notification">×</button>
+  </div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" id="close-modal" type="button" aria-label="Close dialog">×</button>
+      <p class="eyebrow">StudentHub</p>
+      <h2 id="modal-title">About this demo</h2>
+      <p id="modal-description">This page demonstrates JavaScript DOM selection, event handling, class manipulation, localStorage, and interface interaction.</p>
+    </section>
+  </div>
+  <footer class="site-footer"><p>StudentHub Practical 4 · JavaScript DOM Interactivity</p></footer>
+</body>
+</html>

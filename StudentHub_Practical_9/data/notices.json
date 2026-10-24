@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Practical 6 is available",
+    "date": "2026-10-24",
+    "type": "Academic",
+    "message": "Explore JSON-powered event, student and FAQ lists."
+  },
+  {
+    "id": 2,
+    "title": "Web Development Workshop",
+    "date": "2026-11-05",
+    "type": "Event",
+    "message": "The sample workshop is listed on the Events page."
+  },
+  {
+    "id": 3,
+    "title": "Keep your registration details ready",
+    "date": "2026-11-01",
+    "type": "Reminder",
+    "message": "Use the Registration page to test the required fields and validation messages."
+  },
+  {
+    "id": 4,
+    "title": "Student Project Showcase",
+    "date": "2026-11-18",
+    "type": "Event",
+    "message": "Browse the Events page for the sample showcase details."
+  },
+  {
+    "id": 5,
+    "title": "Theme preference is saved locally",
+    "date": "2026-10-24",
+    "type": "Portal",
+    "message": "Your light or dark theme selection is saved in this browser."
+  },
+  {
+    "id": 6,
+    "title": "Sample data notice",
+    "date": "2026-10-24",
+    "type": "Portal",
+    "message": "All student profiles and event records in this practical are fictional sample data."
+  },
+  {
+    "id": 7,
+    "title": "Use the Student Directory",
+    "date": "2026-10-24",
+    "type": "Academic",
+    "message": "Search and filter sample profiles from the Students page."
+  },
+  {
+    "id": 8,
+    "title": "JSON loading requires HTTP",
+    "date": "2026-10-24",
+    "type": "Technical",
+    "message": "Run a local server to allow Fetch API requests to the JSON files."
+  },
+  {
+    "id": 9,
+    "title": "FAQ updated",
+    "date": "2026-10-24",
+    "type": "Portal",
+    "message": "The About page now renders FAQ content from faqs.json."
+  },
+  {
+    "id": 10,
+    "title": "Try event sorting",
+    "date": "2026-10-24",
+    "type": "Academic",
+    "message": "Sort the event list by date or title."
+  },
+  {
+    "id": 11,
+    "title": "Search can be combined with filters",
+    "date": "2026-10-24",
+    "type": "Academic",
+    "message": "Use event search and category filtering together."
+  },
+  {
+    "id": 12,
+    "title": "Pagination is enabled",
+    "date": "2026-10-24",
+    "type": "Portal",
+    "message": "Change the number of records shown per page in event and student lists."
+  },
+  {
+    "id": 13,
+    "title": "Check error handling",
+    "date": "2026-10-24",
+    "type": "Technical",
+    "message": "Try temporarily renaming a JSON file to see the error message."
+  },
+  {
+    "id": 14,
+    "title": "Keyboard-friendly controls",
+    "date": "2026-10-24",
+    "type": "Accessibility",
+    "message": "Use Tab and Enter to navigate and activate controls."
+  },
+  {
+    "id": 15,
+    "title": "Previous practical features remain",
+    "date": "2026-10-24",
+    "type": "Portal",
+    "message": "The shared theme, navigation, modal, notification and slider are retained."
+  }
+]

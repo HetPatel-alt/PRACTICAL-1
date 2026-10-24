@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-11-05",
+    "location": "Computer Lab 2",
+    "description": "Practice building semantic, accessible and responsive web pages.",
+    "organizer": "IT Department"
+  },
+  {
+    "id": 2,
+    "title": "Student Project Showcase",
+    "category": "Exhibition",
+    "date": "2026-11-18",
+    "location": "Main Auditorium",
+    "description": "Present student projects and learn from other teams.",
+    "organizer": "Innovation Cell"
+  },
+  {
+    "id": 3,
+    "title": "Campus Activity Day",
+    "category": "Campus",
+    "date": "2026-12-02",
+    "location": "Central Lawn",
+    "description": "Join student clubs for a day of campus activities.",
+    "organizer": "Student Council"
+  },
+  {
+    "id": 4,
+    "title": "Python Coding Challenge",
+    "category": "Competition",
+    "date": "2026-11-09",
+    "location": "Programming Lab",
+    "description": "Solve programming problems and compare approaches.",
+    "organizer": "Coding Club"
+  },
+  {
+    "id": 5,
+    "title": "Resume Building Session",
+    "category": "Workshop",
+    "date": "2026-11-12",
+    "location": "Seminar Hall A",
+    "description": "Learn how to structure a clear student resume.",
+    "organizer": "Placement Cell"
+  },
+  {
+    "id": 6,
+    "title": "Open Source Meetup",
+    "category": "Meetup",
+    "date": "2026-11-20",
+    "location": "Library Hall",
+    "description": "Discuss open-source contributions and beginner-friendly repositories.",
+    "organizer": "Developer Community"
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Awareness Talk",
+    "category": "Seminar",
+    "date": "2026-11-24",
+    "location": "Seminar Hall B",
+    "description": "Explore common online threats and practical safety habits.",
+    "organizer": "Cyber Club"
+  },
+  {
+    "id": 8,
+    "title": "UI Design Sprint",
+    "category": "Competition",
+    "date": "2026-11-27",
+    "location": "Design Studio",
+    "description": "Create a simple interface concept in a timed team activity.",
+    "organizer": "Design Society"
+  },
+  {
+    "id": 9,
+    "title": "Data Science Introduction",
+    "category": "Seminar",
+    "date": "2026-12-04",
+    "location": "Room 204",
+    "description": "Understand datasets, data cleaning and basic analysis.",
+    "organizer": "Analytics Group"
+  },
+  {
+    "id": 10,
+    "title": "Book Exchange",
+    "category": "Campus",
+    "date": "2026-12-08",
+    "location": "Library Entrance",
+    "description": "Exchange textbooks and reading material with other students.",
+    "organizer": "Library Committee"
+  },
+  {
+    "id": 11,
+    "title": "Robotics Demonstration",
+    "category": "Exhibition",
+    "date": "2026-12-11",
+    "location": "Engineering Block",
+    "description": "See student-built robots and embedded systems projects.",
+    "organizer": "Robotics Club"
+  },
+  {
+    "id": 12,
+    "title": "Communication Skills Workshop",
+    "category": "Workshop",
+    "date": "2026-12-14",
+    "location": "Seminar Hall A",
+    "description": "Practice concise presentations and group discussion.",
+    "organizer": "Student Development Cell"
+  },
+  {
+    "id": 13,
+    "title": "Hackathon Orientation",
+    "category": "Meetup",
+    "date": "2026-12-17",
+    "location": "Main Auditorium",
+    "description": "Review team formation, project scope and hackathon planning.",
+    "organizer": "Innovation Cell"
+  },
+  {
+    "id": 14,
+    "title": "Cloud Computing Seminar",
+    "category": "Seminar",
+    "date": "2026-12-19",
+    "location": "Computer Lab 1",
+    "description": "Learn the basics of cloud services and deployment models.",
+    "organizer": "Cloud Computing Group"
+  },
+  {
+    "id": 15,
+    "title": "Winter Sports Meet",
+    "category": "Sports",
+    "date": "2026-12-22",
+    "location": "Sports Ground",
+    "description": "Participate in friendly inter-class sports events.",
+    "organizer": "Sports Committee"
+  }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-layout">
+      <h1 class="site-title">Student Registration</h1>
+      <nav aria-label="Main navigation"><ul class="nav-list">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="register.html" aria-current="page">Registration</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="events.html">Events</a></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main class="container content-section">
+    <section class="form-panel">
+      <h2>Registration Form</h2>
+      <form action="#" method="post">
+        <div class="form-grid">
+          <p class="form-field"><label for="full-name">Full name</label><input id="full-name" name="full_name" type="text" required></p>
+          <p class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" required></p>
+          <p class="form-field"><label for="student-id">Student ID</label><input id="student-id" name="student_id" type="text" required></p>
+          <p class="form-field"><label for="course">Course</label><select id="course" name="course" required><option value="">Select course</option><option>Information Technology</option><option>Computer Science</option><option>Other</option></select></p>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><p>&copy; 2026 StudentHub</p></div></footer>
+</body>
+</html>

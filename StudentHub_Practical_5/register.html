@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/validation.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="site-title" href="index.html">StudentHub</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html" >Home</a>
+      <a href="about.html" >About</a>
+      <a href="register.html" aria-current="page">Registration</a>
+      <a href="dashboard.html" >Dashboard</a>
+      <a href="events.html" >Events</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button></div></header>
+  <main class="page-container">
+    
+<section class="intro-panel">
+  <p class="eyebrow">Student account</p><h1>Student Registration</h1>
+  <p>Complete the form below. This practical extends the existing StudentHub registration page with accessible frontend validation.</p>
+</section>
+<section class="section-block form-panel">
+  <h2>Student Registration Form</h2>
+  <form id="registration-form" action="#" method="post" novalidate>
+    <div class="form-grid">
+      <div class="form-field"><label for="full-name">Full name *</label><input id="full-name" name="full_name" type="text" autocomplete="name" required aria-describedby="full-name-error"><p class="field-error" id="full-name-error" aria-live="polite"></p></div>
+      <div class="form-field"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><p class="field-error" id="email-error" aria-live="polite"></p></div>
+      <div class="form-field"><label for="mobile">Mobile number *</label><input id="mobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile number" required aria-describedby="mobile-error"><p class="field-error" id="mobile-error" aria-live="polite"></p></div>
+      <div class="form-field"><label for="student-id">Student ID</label><input id="student-id" name="student_id" type="text" autocomplete="off"></div>
+      <div class="form-field"><label for="course">Course *</label><select id="course" name="course" required aria-describedby="course-error"><option value="">Select course</option><option value="Information Technology">Information Technology</option><option value="Computer Science">Computer Science</option><option value="Computer Engineering">Computer Engineering</option><option value="Other">Other</option></select><p class="field-error" id="course-error" aria-live="polite"></p></div>
+      <div class="form-field"><label for="year">Year of study *</label><select id="year" name="year" required aria-describedby="year-error"><option value="">Select year</option><option value="1">First Year</option><option value="2">Second Year</option><option value="3">Third Year</option><option value="4">Fourth Year</option></select><p class="field-error" id="year-error" aria-live="polite"></p></div>
+      <fieldset class="form-field gender-field"><legend>Gender *</legend><div class="radio-options"><label><input type="radio" name="gender" value="Female"> Female</label><label><input type="radio" name="gender" value="Male"> Male</label><label><input type="radio" name="gender" value="Other"> Other</label><label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label></div><p class="field-error" id="gender-error" aria-live="polite"></p></fieldset>
+      <div class="form-field"><label for="password">Password *</label><input id="password" name="password" type="password" autocomplete="new-password" required aria-describedby="password-help password-error"><p class="field-help" id="password-help">At least 8 characters, including uppercase, lowercase, a number, and a special character.</p><p class="field-error" id="password-error" aria-live="polite"></p><div class="strength-track" aria-hidden="true"><div id="strength-bar"></div></div><p id="strength-text" class="field-help" aria-live="polite">Password strength: not entered</p></div>
+      <div class="form-field"><label for="confirm-password">Confirm password *</label><input id="confirm-password" name="confirm_password" type="password" autocomplete="new-password" required aria-describedby="confirm-password-error"><p class="field-error" id="confirm-password-error" aria-live="polite"></p></div>
+    </div>
+    <div class="terms-row"><input id="terms" name="terms" type="checkbox" required><label for="terms">I accept the terms and conditions. *</label></div>
+    <p class="field-error" id="terms-error" aria-live="polite"></p>
+    <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+    <button type="submit">Create Account</button>
+    <button type="reset" class="secondary-button">Clear Form</button>
+  </form>
+</section>
+
+
+  </main>
+  <div class="notification" id="notification" role="status" aria-live="polite" hidden>
+    <p id="notification-message">You are all caught up.</p>
+    <button id="close-notification" type="button" aria-label="Dismiss notification">×</button>
+  </div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" id="close-modal" type="button" aria-label="Close dialog">×</button>
+      <p class="eyebrow">StudentHub</p>
+      <h2 id="modal-title">About this demo</h2>
+      <p id="modal-description">This page demonstrates JavaScript DOM selection, event handling, class manipulation, localStorage, and interface interaction.</p>
+    </section>
+  </div>
+  <footer class="site-footer"><p>StudentHub Practicals 2–5 · Registration Validation</p></footer>
+</body>
+</html>

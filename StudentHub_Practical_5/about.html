@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | About</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="site-title" href="index.html">StudentHub</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html" >Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="register.html" >Registration</a>
+      <a href="dashboard.html" >Dashboard</a>
+      <a href="events.html" >Events</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button></div></header>
+  <main class="page-container">
+    
+<section class="intro-panel">
+  <p class="eyebrow">About us</p><h1>About StudentHub</h1>
+  <p>StudentHub is a sample student portal that organizes student information and campus updates in one place.</p>
+</section>
+<section class="section-block">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="answer-1">What is StudentHub?</button></h3><div class="faq-answer" id="answer-1" hidden><p>It is a sample portal interface for student information and campus activities.</p></div></article>
+    <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="answer-2">Can I change the theme?</button></h3><div class="faq-answer" id="answer-2" hidden><p>Yes. Use the theme button in the header. Your choice is saved in this browser.</p></div></article>
+    <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="answer-3">Does this demo store student data?</button></h3><div class="faq-answer" id="answer-3" hidden><p>No. This is a static front-end demonstration without a backend or database.</p></div></article>
+  </div>
+</section>
+
+  </main>
+  <div class="notification" id="notification" role="status" aria-live="polite" hidden>
+    <p id="notification-message">You are all caught up.</p>
+    <button id="close-notification" type="button" aria-label="Dismiss notification">×</button>
+  </div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" id="close-modal" type="button" aria-label="Close dialog">×</button>
+      <p class="eyebrow">StudentHub</p>
+      <h2 id="modal-title">About this demo</h2>
+      <p id="modal-description">This page demonstrates JavaScript DOM selection, event handling, class manipulation, localStorage, and interface interaction.</p>
+    </section>
+  </div>
+  <footer class="site-footer"><p>StudentHub Practical 4 · JavaScript DOM Interactivity</p></footer>
+</body>
+</html>
