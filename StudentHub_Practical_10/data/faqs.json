@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "Portal",
+    "question": "What is StudentHub?",
+    "answer": "StudentHub is a sample student portal that brings student information and campus updates together."
+  },
+  {
+    "id": 2,
+    "category": "Portal",
+    "question": "Which pages are available?",
+    "answer": "The portal includes Home, About, Registration, Dashboard, Events and Student Directory pages."
+  },
+  {
+    "id": 3,
+    "category": "Account",
+    "question": "How do I register?",
+    "answer": "Open Registration, complete every required field and correct any validation messages."
+  },
+  {
+    "id": 4,
+    "category": "Account",
+    "question": "Does registration create a real account?",
+    "answer": "No. This is a frontend practical and does not send registration data to a server."
+  },
+  {
+    "id": 5,
+    "category": "Account",
+    "question": "Why is my password rejected?",
+    "answer": "Use at least eight characters including uppercase, lowercase, a digit and a special character."
+  },
+  {
+    "id": 6,
+    "category": "Account",
+    "question": "Why must I confirm my password?",
+    "answer": "The confirmation field checks that both password entries match."
+  },
+  {
+    "id": 7,
+    "category": "Events",
+    "question": "Where can I find campus events?",
+    "answer": "Open the Events page to search, filter, sort and page through sample events."
+  },
+  {
+    "id": 8,
+    "category": "Events",
+    "question": "Can I filter events by category?",
+    "answer": "Yes. Select a category from the event category filter."
+  },
+  {
+    "id": 9,
+    "category": "Directory",
+    "question": "What is the Student Directory?",
+    "answer": "It displays sample student profiles loaded from an external JSON file."
+  },
+  {
+    "id": 10,
+    "category": "Directory",
+    "question": "Can I search for a student?",
+    "answer": "Yes. Search by name, student ID, course, city or email."
+  },
+  {
+    "id": 11,
+    "category": "Privacy",
+    "question": "Is the student data real?",
+    "answer": "No. The directory contains fictional sample records for learning purposes."
+  },
+  {
+    "id": 12,
+    "category": "Theme",
+    "question": "Can I switch between light and dark themes?",
+    "answer": "Use the theme button in the header. The selected theme is saved in localStorage."
+  },
+  {
+    "id": 13,
+    "category": "Technical",
+    "question": "Why does JSON data not load when I open the HTML file directly?",
+    "answer": "The browser may block Fetch API requests from file URLs. Run the folder through a local HTTP server."
+  },
+  {
+    "id": 14,
+    "category": "Technical",
+    "question": "How do I start the local server?",
+    "answer": "Open a terminal in the project folder and run: python -m http.server 8000. Then visit http://localhost:8000."
+  },
+  {
+    "id": 15,
+    "category": "Technical",
+    "question": "What happens if the JSON request fails?",
+    "answer": "The page displays a loading or error message instead of silently showing an empty list."
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "STU001",
+    "name": "Aarav Patel",
+    "course": "Information Technology",
+    "year": 2,
+    "city": "Ahmedabad",
+    "email": "aarav.patel@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU002",
+    "name": "Diya Shah",
+    "course": "Computer Science",
+    "year": 1,
+    "city": "Surat",
+    "email": "diya.shah@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU003",
+    "name": "Rohan Mehta",
+    "course": "Computer Engineering",
+    "year": 3,
+    "city": "Vadodara",
+    "email": "rohan.mehta@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU004",
+    "name": "Anaya Desai",
+    "course": "Information Technology",
+    "year": 4,
+    "city": "Rajkot",
+    "email": "anaya.desai@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU005",
+    "name": "Vivaan Joshi",
+    "course": "Computer Science",
+    "year": 2,
+    "city": "Ahmedabad",
+    "email": "vivaan.joshi@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU006",
+    "name": "Isha Trivedi",
+    "course": "Computer Engineering",
+    "year": 1,
+    "city": "Gandhinagar",
+    "email": "isha.trivedi@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU007",
+    "name": "Arjun Dave",
+    "course": "Information Technology",
+    "year": 3,
+    "city": "Bhavnagar",
+    "email": "arjun.dave@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU008",
+    "name": "Sara Bhatt",
+    "course": "Computer Science",
+    "year": 4,
+    "city": "Surat",
+    "email": "sara.bhatt@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU009",
+    "name": "Krish Amin",
+    "course": "Computer Engineering",
+    "year": 2,
+    "city": "Anand",
+    "email": "krish.amin@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU010",
+    "name": "Myra Shah",
+    "course": "Information Technology",
+    "year": 1,
+    "city": "Nadiad",
+    "email": "myra.shah@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU011",
+    "name": "Dev Parmar",
+    "course": "Computer Science",
+    "year": 3,
+    "city": "Ahmedabad",
+    "email": "dev.parmar@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU012",
+    "name": "Kiara Patel",
+    "course": "Computer Engineering",
+    "year": 4,
+    "city": "Surat",
+    "email": "kiara.patel@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU013",
+    "name": "Reyansh Gandhi",
+    "course": "Information Technology",
+    "year": 2,
+    "city": "Vadodara",
+    "email": "reyansh.gandhi@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU014",
+    "name": "Aadhya Thakkar",
+    "course": "Computer Science",
+    "year": 1,
+    "city": "Rajkot",
+    "email": "aadhya.thakkar@example.com",
+    "status": "Active"
+  },
+  {
+    "id": "STU015",
+    "name": "Kabir Modi",
+    "course": "Computer Engineering",
+    "year": 3,
+    "city": "Gandhinagar",
+    "email": "kabir.modi@example.com",
+    "status": "Active"
+  }
+]

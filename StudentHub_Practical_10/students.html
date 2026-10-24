@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | Student Directory</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/data.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+  <a class="site-title" href="index.html">StudentHub</a>
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+  <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="register.php">Registration</a><a href="login.php">Login</a><a href="dashboard.php">Dashboard</a><a href="events.html">Events</a><a href="students.html" aria-current="page">Students</a>
+      <a href="database.php">Database</a>
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+</div></header>
+<main class="page-container">
+  <section class="intro-panel"><p class="eyebrow">Fetch API</p><h1>Student Directory</h1><p>Search and filter student profiles loaded from <code>data/students.json</code>. The records are fictional sample data.</p></section>
+  <section class="section-block json-section">
+    <div class="data-controls">
+      <div class="field"><label for="student-search">Search students</label><input id="student-search" type="search" placeholder="Name, ID, course, city or email"></div>
+      <div class="field"><label for="student-course">Course</label><select id="student-course"><option value="">All courses</option></select></div>
+      <div class="field"><label for="student-year">Year</label><select id="student-year"><option value="">All years</option><option value="1">First Year</option><option value="2">Second Year</option><option value="3">Third Year</option><option value="4">Fourth Year</option></select></div>
+      <div class="field"><label for="student-sort">Sort by</label><select id="student-sort"><option value="name-asc">Name: A–Z</option><option value="name-desc">Name: Z–A</option><option value="year-asc">Year: lowest first</option><option value="year-desc">Year: highest first</option></select></div>
+      <div class="field"><label for="student-page-size">Records per page</label><select id="student-page-size"><option value="5">5</option><option value="10">10</option><option value="15">15</option></select></div>
+    </div>
+    <p id="students-status" class="data-status" role="status" aria-live="polite">Loading student profiles…</p>
+    <div id="students-list" class="data-grid"></div>
+    <div class="pagination"><button id="students-prev" type="button" class="secondary-button" disabled>Previous</button><span id="students-page-label">Page 1</span><button id="students-next" type="button" class="secondary-button" disabled>Next</button></div>
+  </section>
+</main>
+<div class="notification" id="notification" role="status" aria-live="polite" hidden><p id="notification-message">You are all caught up.</p><button id="close-notification" type="button" aria-label="Dismiss notification">×</button></div>
+<footer class="site-footer"><p>StudentHub · Practicals 2–10 cumulative project</p></footer>
+</body>
+</html>
